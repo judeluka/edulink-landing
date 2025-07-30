@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowRight, CheckCircle, Users, TrendingUp, Clock } from 'lucide-react'
+import { ArrowRight, CheckCircle } from 'lucide-react'
 import { useState } from 'react'
 
 export default function EarlyAccessCTA() {
@@ -107,9 +107,9 @@ export default function EarlyAccessCTA() {
               <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <CheckCircle className="w-8 h-8 text-emerald-600" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">You're on the list!</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">You&apos;re on the list!</h3>
               <p className="text-gray-600">
-                We'll contact you soon with more details about your early access benefits.
+                We&apos;ll contact you soon with more details about your early access benefits.
               </p>
             </motion.div>
           )}

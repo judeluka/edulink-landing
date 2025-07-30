@@ -1,7 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
-import { Calendar, Play, MessageCircle, Mail, Phone, MapPin, Link2 } from 'lucide-react'
+import { MapPin, Link2 } from 'lucide-react'
 
 export default function CTA() {
   return (

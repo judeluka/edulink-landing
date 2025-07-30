@@ -3,10 +3,9 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { 
-  Users, Globe, Calendar, Shield, 
-  Smartphone, BarChart3, Link, Zap,
-  GraduationCap, Building2, Plane, Home,
-  CreditCard, FileCheck, Bell, Cloud
+  Globe, Shield,
+  GraduationCap, Plane, Home,
+  CreditCard
 } from 'lucide-react'
 
 export default function FeaturesEcosystem() {

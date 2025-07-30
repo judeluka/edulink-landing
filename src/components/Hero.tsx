@@ -1,7 +1,7 @@
 'use client'
 
 import { motion, AnimatePresence } from 'framer-motion'
-import { Play, ArrowRight, CheckCircle, Link2 } from 'lucide-react'
+import { ArrowRight, CheckCircle, Link2 } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
 export default function Hero() {
@@ -15,7 +15,7 @@ export default function Hero() {
       setCurrentWord((prev) => (prev + 1) % words.length)
     }, 2000)
     return () => clearInterval(interval)
-  }, [])
+  }, [words.length])
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -127,7 +127,7 @@ export default function Hero() {
                     className="flex items-center space-x-2 text-emerald-600 font-medium"
                   >
                     <CheckCircle className="w-5 h-5" />
-                    <span>Thanks! We'll be in touch soon.</span>
+                    <span>Thanks! We&apos;ll be in touch soon.</span>
                   </motion.div>
                 )}
               </motion.div>

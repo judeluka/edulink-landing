@@ -3,9 +3,8 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { 
-  AlertTriangle, FileSpreadsheet, Mail, Users, 
-  Shuffle, Clock, TrendingDown, Shield,
-  ArrowRight, CheckCircle
+  FileSpreadsheet, Mail, 
+  Shuffle, Clock, TrendingDown, Shield
 } from 'lucide-react'
 
 export default function ProblemSolution() {
@@ -67,7 +66,7 @@ export default function ProblemSolution() {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Language schools lose time, money, and opportunities every day due to fragmented, 
-            manual processes. It's time for a change.
+            manual processes. It&apos;s time for a change.
           </p>
         </motion.div>
 

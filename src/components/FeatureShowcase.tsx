@@ -2,7 +2,7 @@
 
 import { motion, useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
-import { CheckCircle, ArrowRight, Sparkles, Maximize2, X } from 'lucide-react'
+import { CheckCircle, Sparkles, Maximize2, X } from 'lucide-react'
 
 export default function FeatureShowcase() {
   const ref = useRef(null)
