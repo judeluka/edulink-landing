@@ -83,7 +83,7 @@ export default function FeaturesEcosystem() {
   ]
 
 
-  const colorClasses = {
+  const colorClasses: Record<string, string> = {
     blue: "bg-blue-100 text-blue-600 border-blue-200",
     purple: "bg-purple-100 text-purple-600 border-purple-200",
     orange: "bg-orange-100 text-orange-600 border-orange-200",
