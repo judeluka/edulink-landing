@@ -137,17 +137,18 @@ export default function Hero() {
 
           {/* Right Column - Full Background Video */}
           <div className="relative overflow-hidden">
-            {/* Full Background Video */}
-            <video
-              className="absolute inset-0 w-full h-full object-cover"
-              autoPlay
-              loop
-              muted
-              playsInline
-            >
-              <source src="https://vcgt5webfrc6xgaj.public.blob.vercel-storage.com/Hero%20Video%20EduLink.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            {/* Vimeo Video Embed */}
+            <div className="absolute inset-0">
+              <iframe
+                src="https://player.vimeo.com/video/1108392003?badge=0&autopause=0&player_id=0&app_id=58479&background=1&autoplay=1&loop=1&muted=1&title=0&byline=0&portrait=0"
+                className="absolute inset-0 w-full h-full"
+                style={{ width: '100%', height: '100%' }}
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                referrerPolicy="strict-origin-when-cross-origin"
+                title="EduLink Hero Video"
+              />
+            </div>
 
             {/* Subtle Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-r from-black/10 to-transparent"></div>
