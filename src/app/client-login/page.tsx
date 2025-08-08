@@ -1,10 +1,10 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 
-export default function ClientLogin() {
+function ClientLoginForm() {
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const router = useRouter()
@@ -72,5 +72,19 @@ export default function ClientLogin() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function ClientLogin() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+          <div className="text-center">Loading...</div>
+        </div>
+      </div>
+    }>
+      <ClientLoginForm />
+    </Suspense>
   )
 }
