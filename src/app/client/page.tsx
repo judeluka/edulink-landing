@@ -10,25 +10,25 @@ export default function ClientPortal() {
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         <Link 
-          href="/client/mli-report"
-          className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow"
+          href="/client/mli-report-enhanced"
+          className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border-2 border-blue-200"
         >
           <div className="flex items-center justify-between mb-4">
             <svg className="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
             </svg>
-            <span className="text-xs text-gray-500 font-medium">STRATEGIC</span>
+            <span className="text-xs text-blue-600 font-bold">ENHANCED VERSION</span>
           </div>
           <h3 className="text-lg font-semibold text-gray-900 mb-2">
             MLI Digital Transformation Strategy
           </h3>
           <p className="text-sm text-gray-600 mb-4">
-            Strategic Assessment & Recommendations for transforming from manual operations to scalable growth
+            Professional consultant report with comprehensive analysis, financial modeling, and 24 academic citations
           </p>
           <div className="flex items-center text-sm text-gray-500">
             <span>August 2025</span>
             <span className="mx-2">•</span>
-            <span>Full Report</span>
+            <span>v2.0 Enhanced</span>
           </div>
         </Link>
 
