@@ -19,7 +19,7 @@ export default function MLIReport() {
         </p>
         <div className="bg-blue-50 p-6 rounded-lg my-6">
           <p className="font-semibold text-blue-900 mb-2">Key Finding:</p>
-          <p className="text-blue-800">No existing commercial software solution fully addresses MLI's unique multi-center, multi-stakeholder operational model.</p>
+          <p className="text-blue-800">No existing commercial software solution fully addresses MLI&apos;s unique multi-center, multi-stakeholder operational model.</p>
         </div>
         <div className="bg-green-50 p-6 rounded-lg">
           <p className="font-semibold text-green-900 mb-2">Recommendation:</p>
@@ -286,7 +286,7 @@ export default function MLIReport() {
           <div className="bg-green-50 border border-green-300 rounded-lg p-6">
             <h3 className="text-xl font-semibold text-green-900 mb-3">Option 4: Custom Platform Development (Recommended)</h3>
             <ul className="list-disc pl-6 space-y-2 text-green-800">
-              <li>Purpose-built for MLI's specific operational model including travel</li>
+              <li>Purpose-built for MLI&apos;s specific operational model including travel</li>
               <li>Complete integration of all workflows from booking to departure</li>
               <li>Single vendor relationship for development and support</li>
               <li>No ongoing licensing fees beyond hosting and maintenance</li>
@@ -310,7 +310,7 @@ export default function MLIReport() {
           
           <div className="bg-blue-50 p-4 rounded-lg">
             <h4 className="font-semibold text-blue-900 mb-2">2. Perfect Fit</h4>
-            <p className="text-blue-800 text-sm">System designed exactly for MLI's workflows rather than forcing business processes to match software limitations</p>
+            <p className="text-blue-800 text-sm">System designed exactly for MLI&apos;s workflows rather than forcing business processes to match software limitations</p>
           </div>
           
           <div className="bg-blue-50 p-4 rounded-lg">
@@ -627,7 +627,7 @@ export default function MLIReport() {
         <h2 className="text-3xl font-bold text-gray-900 mb-6">Conclusion</h2>
 
         <p className="text-gray-700 leading-relaxed mb-4">
-          MLI's operational challenges require a comprehensive digital transformation. Our analysis clearly demonstrates that no off-the-shelf solution adequately addresses the unique requirements of a multi-center educational organization with integrated travel management needs.
+          MLI&apos;s operational challenges require a comprehensive digital transformation. Our analysis clearly demonstrates that no off-the-shelf solution adequately addresses the unique requirements of a multi-center educational organization with integrated travel management needs.
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-4">
@@ -642,11 +642,11 @@ export default function MLIReport() {
         </ul>
 
         <p className="text-gray-700 leading-relaxed mb-4">
-          The March 2026 timeline is achievable with the right development partner and proper project governance. The key to success lies in selecting an experienced developer who understands both the technical challenges and the educational sector's unique requirements.
+          The March 2026 timeline is achievable with the right development partner and proper project governance. The key to success lies in selecting an experienced developer who understands both the technical challenges and the educational sector&apos;s unique requirements.
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-6">
-          The alternative—continuing with manual processes or attempting to integrate multiple inadequate solutions—poses greater long-term risk to MLI's competitive position and growth potential.
+          The alternative—continuing with manual processes or attempting to integrate multiple inadequate solutions—poses greater long-term risk to MLI&apos;s competitive position and growth potential.
         </p>
 
         <div className="bg-gradient-to-r from-green-50 to-blue-50 border-l-4 border-green-600 rounded-lg p-6">
