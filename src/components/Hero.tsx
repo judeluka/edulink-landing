@@ -136,16 +136,23 @@ export default function Hero() {
           </div>
 
           {/* Right Column - Full Background Video */}
-          <div className="relative overflow-hidden">
-            {/* Vimeo Video Embed */}
-            <div className="absolute inset-0">
+          <div className="relative overflow-hidden bg-gray-100">
+            {/* Vimeo Video Embed - stretched to cover */}
+            <div className="absolute inset-0" style={{ width: '100%', height: '100%' }}>
               <iframe
-                src="https://player.vimeo.com/video/1108392003?badge=0&autopause=0&player_id=0&app_id=58479&background=1&autoplay=1&loop=1&muted=1&title=0&byline=0&portrait=0"
-                className="absolute inset-0 w-full h-full"
-                style={{ width: '100%', height: '100%' }}
+                src="https://player.vimeo.com/video/1108392003?background=1&autoplay=1&loop=1&muted=1&title=0&byline=0&portrait=0&controls=0&quality=1080p"
+                className="absolute"
+                style={{ 
+                  width: '177.77vh',
+                  height: '100vh',
+                  minWidth: '100%',
+                  minHeight: '100%',
+                  left: '50%',
+                  top: '50%',
+                  transform: 'translate(-50%, -50%)'
+                }}
                 frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-                referrerPolicy="strict-origin-when-cross-origin"
+                allow="autoplay; fullscreen; picture-in-picture"
                 title="EduLink Hero Video"
               />
             </div>
