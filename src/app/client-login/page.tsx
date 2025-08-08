@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
+import Link from 'next/link'
 
 export default function ClientLogin() {
   const [password, setPassword] = useState('')
@@ -65,9 +66,9 @@ export default function ClientLogin() {
         </form>
         
         <div className="mt-6 text-center">
-          <a href="/" className="text-blue-600 hover:text-blue-700 text-sm">
+          <Link href="/" className="text-blue-600 hover:text-blue-700 text-sm">
             ← Back to main site
-          </a>
+          </Link>
         </div>
       </div>
     </div>
