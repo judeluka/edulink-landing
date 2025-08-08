@@ -2,7 +2,6 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
 const PROTECTED_PATHS = ['/client']
-const CLIENT_PASSWORD = process.env.CLIENT_PASSWORD || 'edulink2025'
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
@@ -17,7 +16,8 @@ export function middleware(request: NextRequest) {
 
   const authCookie = request.cookies.get('client-auth')
   
-  if (authCookie?.value === CLIENT_PASSWORD) {
+  // Check if user is authenticated
+  if (authCookie?.value === 'authenticated') {
     return NextResponse.next()
   }
 
